@@ -1,0 +1,3 @@
+notepad_app/file_list.html: Display a list of text files.
+notepad_app/file_form.html: Create and edit text files.
+notepad_app/file_detail.html: View the content of a text file.
