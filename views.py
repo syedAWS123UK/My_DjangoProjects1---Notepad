@@ -29,12 +29,8 @@ def edit_text_file(request, pk):
         form = TextFileForm(instance=file)
     return render(request, '/users/computer/project/django/notepad/templates/file_form.html', {'form': form})
 
-#    return render(request, 'notepad_app/file_form.html', {'form': form})
+#    return render(request, '/users/computer/project/django/notepad/templates/file_form.html', {'form': form})
 
 def view_text_file(request, pk):
     file = get_object_or_404(TextFile, pk=pk)
     return render(request, '/users/computer/project/django/notepad/templates/file_form.html', {'form': form})
-
-notepad_app/file_list.html
-notepad_app/file_form.html
-notepad_app/file_detail.html
